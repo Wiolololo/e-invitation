@@ -1,0 +1,49 @@
+
+           #content {
+               background-color: #DBC5C8;
+               width: 80%;
+               margin: auto;
+               border: 0px solid rgb(120, 116, 120);
+               padding: 10px;
+               text-align: center;
+               font: 16px 'Palatino Linotype';
+               color: white;
+            } 
+            h1, h2 {
+                font-variant: small-caps;
+                text-align: center;
+                letter-spacing: 3px;
+                font-size: 3em;
+                color: white;
+                
+            }
+            button {
+                background-color: #94859C;
+                border: none;
+                color: white;
+                padding: 10px 10px;
+                margin: 5px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font: 14px Palatino Linotype;
+
+            }
+            button:hover {
+                background-color: #FFFFFF;
+                color: #94859C;
+                cursor:pointer;
+            }
+            #date {
+                font-weight: bold;
+                font-size: 1.1em;
+                letter-spacing: 3px;
+                color: #A1747F;
+            }
+            .key_word {
+                font-weight: bold;
+                color: #94859C;
+            }
+            #rsvp {
+                margin-bottom: 0px;
+            }

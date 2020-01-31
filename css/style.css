@@ -1,9 +1,9 @@
 @import url('reset.css');
 
-           #content {
+           .content {
                background-color: #DBC5C8;
                width: 80%;
-               margin: auto;
+               margin: 0 auto;
                border: 0px solid rgb(120, 116, 120);
                padding: 10px;
                text-align: center;
@@ -19,6 +19,7 @@
                 
             }
             button {
+                width: 40%;
                 background-color: #94859C;
                 border: none;
                 color: white;
@@ -35,7 +36,7 @@
                 color: #94859C;
                 cursor:pointer;
             }
-            #date {
+            .date {
                 font-weight: bold;
                 font-size: 1.1em;
                 letter-spacing: 3px;
@@ -45,6 +46,6 @@
                 font-weight: bold;
                 color: #94859C;
             }
-            #rsvp {
+            .rsvp {
                 margin-bottom: 0px;
             }

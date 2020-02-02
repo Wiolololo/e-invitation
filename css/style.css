@@ -2,10 +2,10 @@
 
            .content {
                background-color: #DBC5C8;
-               width: 80%;
-               margin: 0 auto;
+               width: 480px;
+               margin: 25px auto;
                border: 0px solid rgb(120, 116, 120);
-               padding: 10px;
+               padding: 30px;
                text-align: center;
                font: 16px 'Palatino Linotype';
                color: white;
@@ -13,8 +13,9 @@
             h1, h2 {
                 font-variant: small-caps;
                 text-align: center;
-                letter-spacing: 3px;
-                font-size: 3em;
+                letter-spacing: 5px;
+                font-size: 3rem;
+                line-height: 100px;
                 color: white;
                 
             }
@@ -40,6 +41,7 @@
                 font-weight: bold;
                 font-size: 1.1em;
                 letter-spacing: 3px;
+                line-height: 50px;
                 color: #A1747F;
             }
             .key_word {
@@ -48,4 +50,7 @@
             }
             .rsvp {
                 margin-bottom: 0px;
+            }
+            .rsvppar {
+                line-height: 50px;
             }

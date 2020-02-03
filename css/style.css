@@ -1,21 +1,27 @@
 @import url('reset.css');
 
-           .content {
+           
+html {
+    font-size: 62.5%;
+}
+
+            .content {
                background-color: #DBC5C8;
                width: 480px;
                margin: 25px auto;
                border: 0px solid rgb(120, 116, 120);
                padding: 30px;
                text-align: center;
-               font: 16px 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+               font: 1.6rem/1.5 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
                color: white;
+                
             } 
             h1, h2 {
+                font-size: 4rem;
+                line-height: 3;
                 font-variant: small-caps;
                 text-align: center;
                 letter-spacing: 5px;
-                font-size: 3rem;
-                line-height: 100px;
                 color: white;
                 
             }
@@ -29,7 +35,7 @@
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                font: 14px 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+                font: 1.4rem 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 
             }
             button:hover {
@@ -39,7 +45,7 @@
             }
             .date {
                 font-weight: bold;
-                font-size: 1.1em;
+                font-size: 1.6rem;
                 letter-spacing: 3px;
                 line-height: 50px;
                 color: #A1747F;
@@ -52,5 +58,7 @@
                 margin-bottom: 0px;
             }
             .rsvppar {
-                line-height: 50px;
+                line-height: 3;
             }
+
+

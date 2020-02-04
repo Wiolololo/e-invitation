@@ -1,49 +1,94 @@
+@import url('reset.css');
 
-           #content {
-               background-color: #DBC5C8;
-               width: 80%;
-               margin: auto;
-               border: 0px solid rgb(120, 116, 120);
-               padding: 10px;
-               text-align: center;
-               font: 16px 'Palatino Linotype';
-               color: white;
-            } 
-            h1, h2 {
-                font-variant: small-caps;
-                text-align: center;
-                letter-spacing: 3px;
-                font-size: 3em;
-                color: white;
+           
+html {
+    font-size: 62.5%;
+}
+            
+.content {
+    background-color: #DBC5C8;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 40%;
+    min-width: 360px;
+    margin: auto;
+    border: 0px solid rgb(120, 116, 120);
+    padding: 30px;
+    text-align: center;
+    font: 1.6rem/1.5 'Playfair Display', serif;
+    color: white;
+    z-index: 1;
+}
+
+h1, h2 {
+    position: relative;
+    font-size: 4rem;
+    line-height: 3;
+    font-variant: small-caps;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;
                 
-            }
-            button {
-                background-color: #94859C;
-                border: none;
-                color: white;
-                padding: 10px 10px;
-                margin: 5px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font: 14px Palatino Linotype;
+}
 
-            }
-            button:hover {
-                background-color: #FFFFFF;
-                color: #94859C;
-                cursor:pointer;
-            }
-            #date {
-                font-weight: bold;
-                font-size: 1.1em;
-                letter-spacing: 3px;
-                color: #A1747F;
-            }
-            .key_word {
-                font-weight: bold;
-                color: #94859C;
-            }
-            #rsvp {
-                margin-bottom: 0px;
-            }
+.fancyInvite {
+    font: 9rem 'Sacramento', cursive;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: #e6d4d6;
+    z-index: -1;
+    
+}
+.fancyRsvp {
+    font: 10rem 'Sacramento', cursive;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    color: #e6d4d6;
+    z-index: -1;
+}
+
+button {
+    width: 40%;
+    background-color: #94859C;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 1.4rem 'Playfair Display', serif;
+}
+
+    button:hover {
+        background-color: #FFFFFF;
+        color: #94859C;
+        cursor:pointer;
+    }
+
+.date {
+    font-weight: bold;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+    line-height: 3;
+    color: #A1747F;
+}
+
+.key_word {
+    font-weight: bold;
+    color: #94859C;
+}
+.rsvp {
+    margin-bottom: 0px;
+}
+
+.rsvppar {
+    position: relative;
+    line-height: 3;
+    z-index: 1;
+}

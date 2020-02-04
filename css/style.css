@@ -10,13 +10,15 @@ html {
     position: absolute;
     left: 0;
     right: 0;
-    width: 480px;
+    width: 40%;
+    min-width: 360px;
     margin: auto;
     border: 0px solid rgb(120, 116, 120);
     padding: 30px;
     text-align: center;
     font: 1.6rem/1.5 'Playfair Display', serif;
     color: white;
+    z-index: 1;
 }
 
 h1, h2 {
@@ -35,17 +37,19 @@ h1, h2 {
 .fancyInvite {
     font: 9rem 'Sacramento', cursive;
     position: absolute;
-    top: 47px;
-    left: 30px;
+    top: 10%;
+    left: 20%;
     color: #e6d4d6;
+    z-index: -1;
     
 }
 .fancyRsvp {
     font: 10rem 'Sacramento', cursive;
     position: absolute;
-    top: 330px;
-    left: 200px;
+    top: 55%;
+    left: 40%;
     color: #e6d4d6;
+    z-index: -1;
 }
 
 button {

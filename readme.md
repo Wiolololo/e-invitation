@@ -1,5 +1,4 @@
 # E-invitation Project
---
 Simple electronic invitation created with HTML and CSS.
 
 ## General info
